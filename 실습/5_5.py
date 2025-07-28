@@ -1,6 +1,5 @@
 # 아래 함수를 수정하시오.
 def even_elements(my_list):
-    even = []
     for _ in range(len(my_list)):
         if my_list[0] % 2 != 0:
             my_list.pop(0)
